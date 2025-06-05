@@ -20,7 +20,7 @@ This project implements a lightweight image encryption system that decomposes gr
 
 The encryption uses a secure version of the **Fisher-Yates shuffle** via Python's `secrets` module to generate cryptographically secure permutations.
 
-## ✨ Features
+## Features
 
 - **Grayscale Conversion**: Converts input color images to grayscale using OpenCV.
 - **Bit-Plane Decomposition**: Separates the grayscale image into its 8 constituent bit-planes.
@@ -29,7 +29,7 @@ The encryption uses a secure version of the **Fisher-Yates shuffle** via Python'
 - **Decryption**: Reconstructs the original grayscale image using the stored keys and reshaped bit-planes.
 - **Visualization**: Displays each encrypted bit-plane and the final decrypted image using Matplotlib.
 
-## ⚙️ Installation
+## Installation
 
 1. **Clone the repository**:
    ```bash
@@ -43,7 +43,7 @@ The encryption uses a secure version of the **Fisher-Yates shuffle** via Python'
    pip install -r requirements.txt
    ```
 
-## 🚀 Usage
+## Usage
 
 1. Place your input image (e.g., `space_invader.png`) in the `img/` folder.
 
@@ -61,7 +61,7 @@ The encryption uses a secure version of the **Fisher-Yates shuffle** via Python'
    - Decrypt and reconstruct the image
    - Display each encrypted bit-plane and the final decrypted output
 
-## 🧠 Code Walkthrough
+## Code Walkthrough
 
 ### `bitPlanes` Class
 - **`__init__(image)`**: Initializes the image.
@@ -89,6 +89,6 @@ Pull requests, issue reports, and feature suggestions are welcome! Feel free to 
 - Real-time application use cases
 - Advanced image encryption techniques
 
-## 📝 License
+## License
 
 This project is open-source and free to use under the **MIT License**. See the [LICENSE](LICENSE) file for details.
